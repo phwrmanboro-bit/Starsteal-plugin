@@ -1,1 +1,13 @@
-
+name: StarSteal
+version: 1.0
+main: com.starsteal.Main
+api-version: 1.20
+commands:
+  starsteal:
+    description: Give elemental stars or check recipe
+    usage: /starsteal <give|recipe> <player/star>
+permissions:
+  starsteal.give:
+    default: op
+  starsteal.recipe:
+    default: true
